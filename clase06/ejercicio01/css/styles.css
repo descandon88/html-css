@@ -1,0 +1,19 @@
+#titulo {
+    color:green;
+}
+.no-importante{
+    color:gray;
+
+}
+
+.importante {
+    color: red
+}
+
+h1 strong{
+    color: yellow;
+}
+
+.relevante {
+    color:purple;
+}

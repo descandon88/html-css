@@ -1,0 +1,22 @@
+body{
+    background-image: url("../img/steve-johnson.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 20%;
+}
+a {
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    background-color: rgb(115, 100, 201);
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,0 +1,23 @@
+h1{
+    color: violet;
+}
+
+h2 {
+    color:teal;
+}
+#bloque-1{
+    border: 1px solid red;
+}
+#bloque-2{
+    border: 5px solid #ccc;
+}
+#bloque-3{
+    border-top: 12px solid #23c120;
+}
+#bloque-4{
+    /*border: 12px,solid #23c120*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; 
+    border-radius: 10px;
+    border: 2px solid black;
+}

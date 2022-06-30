@@ -1,0 +1,22 @@
+#header {
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+
+#sidebar {
+    background-color: orange;
+    width: 12%;
+    height: 500px;
+    float: left;
+    /*position: absolute;*/
+}
+
+#content {
+    background-color: greenyellow;
+    width: 88%;
+    height: 500px;
+    float: right;
+    position: relative;
+}

@@ -1,0 +1,9 @@
+<style>
+        body {
+            color: rgb(red, green, 192);
+            background-color:#babeca; /* */
+        }
+        h1 {
+            color: red;
+        }
+    </style>
