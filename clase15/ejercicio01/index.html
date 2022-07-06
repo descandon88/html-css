@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio01-Clase15-Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    
+    <div id="app-blog" class="container">
+        <h1>Blog de Hack Academy</h1>
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div v-for="post in posts">
+                <h2><a href="post.url"></a> {{post-title}}</h2>
+            </div>
+            <div class="cold-md-4"></div>
+        </div>
+    </div>
+
+    
+    <!-- app -->
+    <script src="js/app.js"></script>
+
+     <!-- jQuery -->
+     <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   ></script>
+
+   <!-- JS de Bootstrap -->
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+     crossorigin="anonymous"
+   ></script>
+
+   <!-- JS de Vue.js -->
+   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="js/vue.min.js"></script>
+    
+</body>
+</html>

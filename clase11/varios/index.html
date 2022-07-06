@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Este es mi Formulario</h1>
+    <input id="nombre-usuario" type="text">
+    <button id="boton-captar">Captar Información</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $("#boton-captar").on("click", function() {
+        var nombreUsuario = $("#nombre-usuario").val();
+
+        var nombreUsuarioMinuscula = nombreUsuario.toLowerCase();
+
+        if (nombreUsuarioMinuscula==="francisco") {
+            alert("El usuario es Francisco")
+        }else{
+            alert("Ups! El usuario no es Francisco")
+        }
+    } ); </script>
+</body>
+</html>
